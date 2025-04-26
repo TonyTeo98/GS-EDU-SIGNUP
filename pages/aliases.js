@@ -112,7 +112,7 @@ export default function AliasesPage({ aliases, studentEmail, emailDomain }) {
             </text>
           </svg>
           <div className="school-text">
-            <h1>ChatGPT University</h1>
+            <h1>Kyrgyzstan Tien Shan University</h1>
             <h2>Manage Email Aliases</h2>
           </div>
         </div>

@@ -30,7 +30,7 @@ export async function getServerSideProps({ req }) {
   const trustLevel    = parseInt(cookies.oauthTrustLevel || '0', 10)
 
   // 必须先 OAuth2 且信任等级 ≥ 3
-  if (!oauthUsername || trustLevel < 3) {
+  if (!oauthUsername || trustLevel < 2) {
     return { redirect: { destination: '/', permanent: false } }
   }
 

@@ -3,10 +3,10 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-      <Head><title>ChatGPT University</title></Head>
+      <Head><title>Kyrgyzstan Tien Shan University</title></Head>
       <div className="container">
         <div className="card">
-          <h1>Welcome to ChatGPT University</h1>
+          <h1>Welcome to Kyrgyzstan Tien Shan University</h1>
           <p>Please authenticate via Linux.do to continue:</p>
           <a className="button" href="/api/oauth2/initiate">
             Sign in with Linux.do
